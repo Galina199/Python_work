@@ -10,7 +10,7 @@ random.shuffle(lst)
 data = pd.DataFrame(lst ,columns={'WhoAmI'}) 
 data.head() 
 
-# One hot вид (не уверен, сам из похожей проги переделал): 
+# One hot вид (возможно так): 
 
 data = pd.DataFrame(random.sample(['robot', 'human']*10, 10) ,columns={'WhoAmI'})  
 data.head() 
